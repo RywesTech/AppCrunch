@@ -1,7 +1,5 @@
----
-layout: post
-title: Developing a Machine Learning Algorithm to Predict App Store app Ratings
----
+# Developing a Machine Learning Algorithm to Predict App Store app Ratings
+
 Apple's iPhone App Store is stocked with over 2.2 million different apps, which have been downloaded over 130 billion times. In fact, two of those apps (and nearly 20,000 of those downloads) are from apps that I've developed and published! You can check out [ISS Now](https://apps.apple.com/us/app/iss-now-space-station-tracker/id1047052212?ls=1), and [We Tip](https://apps.apple.com/us/app/we-tip-tip-calculator/id1056447103?ls=1).  Because of my interest in the App Store, I thought it would be fun to try to build an algorithm to predict the rating (0-5 stars) of apps based off the app's data!
 [Kaggle](https://www.kaggle.com) has a bunch of awesome data sets, one of which contains App Store data on the top 7,200 apps (unfortunately, my apps do not rank this high 😔). The data includes the app's name, price, genre, how many devices are supported, how many screenshots are on the app store, and other pertinent information. The main libraries I'll be using are Pandas, NumPy, Matplotlib, and Sci-Kit Learn. After I organize my data correctly, I'll use a RidgeCV regression to process the data.
 
